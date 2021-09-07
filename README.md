@@ -7,3 +7,13 @@ The data folder of this repository consists of three csv files
 - 'train_features'
 - 'train_salaries': This file contains the target variable 'salary'
 - 'test_features'
+
+## Jupiter Notebooks:
+
+- Salary_Prediction_EDA: contains code for Data Wrangling, Exploratory Data Analysis(EDA) and Baseline creation
+- SalaryPrediction_Modelling: contains the code for model training, hyper parameter tuning, Principal Component Analysis(PCA), Model Evaluation and Model Deployment.
+
+## Other repository content
+'modelpredicition.csv' contains the salaries predicted by the model from the test dataset.
+
+
