@@ -16,4 +16,15 @@ The data folder of this repository consists of three csv files
 ## Other repository content
 'modelpredicition.csv' contains the salaries predicted by the model from the test dataset.
 
+## Data Wrangling 
+1. Load all the train and test data files into pandas data frame.
 
+2. Merge the files - train_features and train_salaries into a single dataframe called train_df
+
+3. Clean the data
+- Check for data duplicates
+	- no data duplicates were found
+- Check for missing values
+	- no missing values were found in the dataset
+- Check for outliers
+	-  used the IQR rule to find the outliers. We found some lower bound outlier and removed them from the training set. Upper bound outliers were detected but we did not remove them because they seem to be legitimate data.
