@@ -28,3 +28,5 @@ The data folder of this repository consists of three csv files
 	- no missing values were found in the dataset
 - Check for outliers
 	-  we used the IQR rule to find the outliers. We found some lower bound outlier and removed them from the training set. Upper bound outliers were detected but we did not remove them because they seem to be legitimate data.
+
+
