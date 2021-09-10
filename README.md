@@ -29,4 +29,9 @@ The data folder of this repository consists of three csv files
 - Check for outliers
 	-  we used the IQR rule to find the outliers. We found some lower bound outlier and removed them from the training set. Upper bound outliers were detected but we did not remove them because they seem to be legitimate data.
 
-
+## Exploratory Data Analysis
+Exploring every features
+1. CompanyID
+	- The number of employess per company ranges from 15635 to 16114. We can conclude that this dataset contains data of all the large companies. This means that our predictive model might not be able to predict the salaries of mid size or small organizations.
+	- All the companies seem to have similar average salary, and similar distribution across the dataset.
+2. Job Type
