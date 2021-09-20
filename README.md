@@ -35,3 +35,19 @@ Exploring every features
 	- The number of employess per company ranges from 15635 to 16114. We can conclude that this dataset contains data of all the large companies. This means that our predictive model might not be able to predict the salaries of mid size or small organizations.
 	- All the companies seem to have similar average salary, and similar distribution across the dataset.
 2. Job Type
+	- All jobtypes have the same count
+	- There are some Vice Presidents, CEO, CFO and Managers without 	degree. 	- Either this is the case of missing data or we can assume that we dont necesserily need a degree to have a C-suite role.
+3. Degree
+	- There are more anount of High School and Non degree holders in the dataset.
+4. Major
+	- There are 9 majors listed in the dataset
+	- Majority of the people in the dataset do not have theie major listed
+5. Industry
+	- There are 7 types of industies in this dataset and all of them have the same count
+6. Years Experience
+	- Years of experience is evenly distributed in the dataset
+7. Miles from metropolis
+
+
+### Target variable - salary
+	- The target variable "Salary" has a Normal Distribution
