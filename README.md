@@ -159,7 +159,8 @@ The plot below visualizes actual salaries versus predicted on the training datas
 
 ### Top 10 Important Features of the Model (GradientBoosting)
 ![alt text](https://github.com/shreyashrestha07/SalaryPrediction/blob/main/images/Feature_importance.png?raw=true)
-	- We can see that the most important feature is the jobType
+	
+- We can see that the most important feature is the jobType
 
 ## Deployment
 Finally we can deploy our model by making salary predictions on the test dataset. The predictions made have been saved in the file 'predictions.csv' which can be found in the repository. 
