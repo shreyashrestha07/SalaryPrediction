@@ -1,7 +1,11 @@
 # Salary Prediction Portfolio
 ## Introduction
+- This project aims to develop and deploy a salary prediction model that provides salary estimates which business' HR and talent functions can use to optimize their compensation strategy, acquire the best talent and improve the company retention rate in the competitive labor markets.
 
-This project aims to train and deploy machine learning model that predict salary based on their job type, location, years of experience and education level. This model over looks over 1000000 inputs. This model provides useful salary estimates that can help people negotiate and maximize their salary based on their market value and job location. This model also gives information about the most common, high paying jobs na d in-demand career paths. This model enables us to determine the key features that drives the salary.
+- This model also provides useful information that job seeker can use to maximize their salary as well as determine the most common, highest paying jobs and in demand career paths.
+
+- This model will be trained on **1+ million training data set with 8 features**. 
+
 ## Data
 The data folder of this repository consists of three csv files
 - 'train_features'
@@ -113,12 +117,12 @@ Based on the correlation heatmap above, we can note the following things.
 	- jobType is the most strongly correlated to salary, followed by degree, major, yearsExperience
 	- milesFromMetropolis has a negative correlation with salary 
 	
-### Baseline
+## Baseline
 For our model performance baseline, a linear regression model using negative MeanSquaredError(MSE) scoring, has been selected. The average MSE score using a five-fold cross-validation on the training dataset is 400.02.
 
 Our goal is to train and deploy a model boasting an MSE score of less than 360.
 
-### Hypothesizing solutions
+## Hypothesizing solutions
 Given the information we have about our data.
 
 **These are the models I propose to predict the salary are:**
@@ -132,3 +136,28 @@ Given the information we have about our data.
 	- Apply feature engineering like one-hot encoding for categorical variabes
 	- Normalize the numerical to scale the data
 	- Hypertune the parameters to enhance the accuracy
+	
+## Feature Engineering
+	- Encode the categorical variables using one-hot encode feature
+	- Normalizing the numerical features
+
+## Model Training
+We performed a 5 fold cross-validation with negative MSE scoring on each of the selected models.
+
+Results
+![alt text](https://github.com/shreyashrestha07/SalaryPrediction/blob/main/images/mse.png?raw=true)
+Clearly the GradientBoosting outperformed all the other models with the lowest neg-MSE.
+
+![alt text](https://github.com/shreyashrestha07/SalaryPrediction/blob/main/images/modle_mse.png?raw=true)
+We achived the goal of reducing the MSE(Mean Squared Error) < 360.
+
+The plot below visualizes actual salaries versus predicted on the training dataset.
+![alt text](https://github.com/shreyashrestha07/SalaryPrediction/blob/main/images/GradientBoot_Training_AVsF.png?raw=true)
+
+### Top 10 Important Features of the Model (GradientBoosting)
+![alt text](https://github.com/shreyashrestha07/SalaryPrediction/blob/main/images/Feature_importance.png?raw=true)
+	- We can see that the most important feature is the jobType
+
+## Deployment
+Finally we can deploy our model by making salary predictions on the test dataset. The predictions made have been saved in the file 'predictions.csv' which can be found in the repository. 
+
