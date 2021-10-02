@@ -145,6 +145,7 @@ Given the information we have about our data.
 We performed a 5 fold cross-validation with negative MSE scoring on each of the selected models.
 
 Results
+
 ![alt text](https://github.com/shreyashrestha07/SalaryPrediction/blob/main/images/mse.png?raw=true)
 Clearly the GradientBoosting outperformed all the other models with the lowest neg-MSE.
 
