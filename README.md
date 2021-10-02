@@ -35,6 +35,7 @@ Exploring every features
 	- The number of employess per company ranges from 15635 to 16114. We can conclude that this dataset contains data of all the large companies. This means that our predictive model might not be able to predict the salaries of mid size or small organizations.
 	- All the companies seem to have similar average salary, and similar distribution across the dataset.
 2. Job Type
+
 ![alt text](https://github.com/shreyashrestha07/SalaryPrediction/blob/main/images/jobtype.png?raw=true)
 	- All jobtypes have the same count
 	- There are some Vice Presidents, CEO, CFO and Managers without degree. 	
