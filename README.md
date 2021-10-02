@@ -51,3 +51,4 @@ Exploring every features
 
 ### Target variable - salary
 	- The target variable "Salary" has a Normal Distribution
+![Test Image 1](target_variable.png)
