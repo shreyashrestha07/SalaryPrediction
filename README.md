@@ -165,7 +165,7 @@ The plot below visualizes actual salaries versus predicted on the training datas
 ![alt text](https://github.com/shreyashrestha07/SalaryPrediction/blob/main/images/GradientBoot_Training_AVsF.png?raw=true)
 
 ### Top 10 Important Features of the Model (GradientBoosting)
-![alt text](https://github.com/shreyashrestha07/SalaryPrediction/blob/main/images/Feature_importance.png?raw=true)
+![alt text](https://github.com/shreyashrestha07/SalaryPrediction/blob/main/images/feature_imp.png?raw=true)
 	
 - We can see that the most important feature is the jobType
 
