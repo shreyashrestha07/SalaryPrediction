@@ -172,3 +172,4 @@ The plot below visualizes actual salaries versus predicted on the training datas
 ## Deployment
 Finally we can deploy our model by making salary predictions on the test dataset. The predictions made have been saved in the file 'predictions.csv' which can be found in the repository. 
 
+
