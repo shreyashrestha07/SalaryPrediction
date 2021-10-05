@@ -1,8 +1,8 @@
 # Salary Prediction Portfolio
 ## Introduction
-- This project aims to develop and deploy a salary prediction model that provides salary estimates which business' HR and talent functions can use to optimize their compensation strategy, acquire the best talent and improve the company retention rate in the competitive labor markets.
+- This project aims to develop and deploy a salary prediction model that provides salary estimates which business' HR and talent functions can use to optimize their compensation strategy, acquire the best talent, and improve the company retention rate in the competitive labor market.
 
-- This model also provides useful information that job seeker can use to maximize their salary as well as determine the most common, highest paying jobs and in demand career paths.
+- This model also provides useful information that job seeker can use to maximize their salary as well as determine the most common domain, highest paying jobs and in-demand career paths.
 
 - This model will be trained on **1+ million training data set with 8 features**. 
 
@@ -14,8 +14,8 @@ The data folder of this repository consists of three csv files
 
 ## Jupiter Notebooks:
 
-- Salary_Prediction_EDA: contains code for Data Wrangling, Exploratory Data Analysis(EDA) and Baseline creation
-- SalaryPrediction_Modelling: contains the code for model training, hyper parameter tuning, Principal Component Analysis(PCA), Model Evaluation and Model Deployment.
+- SalaryPredictionEDA: contains code for Data Wrangling, Exploratory Data Analysis(EDA) and Baseline creation
+- Salary_Prediction_Modelling: contains code for model training, hyper parameter tuning, model evaluation and model deployment.
 
 ## Other repository content
 'predicition.csv' contains the salaries predicted by the model from the test dataset.
