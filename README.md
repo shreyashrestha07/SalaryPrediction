@@ -49,7 +49,7 @@ Exploring every features
 3. Degree
 
 	![alt text](https://github.com/shreyashrestha07/SalaryPrediction/blob/main/images/degreetype.png?raw=true)
-	- There are more anount of High School and Non degree holders in the dataset.
+	- There are more High School and Non degree holders in the dataset.
 4. Major
 
 	![alt text](https://github.com/shreyashrestha07/SalaryPrediction/blob/main/images/majortypes.png?raw=true)
