@@ -73,8 +73,8 @@ Exploring every features
 
 ![alt text](https://github.com/shreyashrestha07/SalaryPrediction/blob/main/images/yearsExperienceandsalary.png?raw=true)
 
-	- We can see a positive correlation between Salary and years of experince.
-	- Higher the years of job experience, higher the salary.
+	- We can see a positive correlation between Salary and years of experience.
+	- Higher the number of years of job experience, higher the salary.
 	
  **ii. milesFromMetropolis and salary**
  
@@ -88,7 +88,7 @@ Exploring every features
 ![alt text](https://github.com/shreyashrestha07/SalaryPrediction/blob/main/images/comanyidandsalary.png?raw=true)
 
 	- There is no correlation between salary and companiId.
-	- We can see a flat cure which means all the companies have the same average salaries.
+	- We can see a flat line which means all the companies have the same average salaries.
 
 **iv. jobType and salary**
 
@@ -102,7 +102,7 @@ Exploring every features
 ![alt text](https://github.com/shreyashrestha07/SalaryPrediction/blob/main/images/degreeandsalary.png?raw=true)
 
 	- More advanced degrees like Doctorate and Masters tend to correspond to higher salaries.
-	- Surpringly, even non degree holders have a decent salary. by looking at this plot we can conclude that a degree is not always required to have a good salary.
+	- Surpringly, even non-degree holders have a decent salary. By looking at this plot we can conclude that a degree is not always required to have a good salary.
 	
 **vi. major and salary**
 
@@ -114,13 +114,13 @@ Exploring every features
 **vii. industry and salary**
 
 ![alt text](https://github.com/shreyashrestha07/SalaryPrediction/blob/main/images/industryandsalary.png?raw=true)
-	- The lowest paying industries - Education and Services can have upper bound salary if the have 15+ years of experice.
+	- The lowest paying industries - Education and Services can have upper bound salary if they have 15+ years of experice.
 	
 #### Multivariate Analysis
 
 ![alt text](https://github.com/shreyashrestha07/SalaryPrediction/blob/main/images/correlation_matrix.png?raw=true)
 
-Based on the correlation heatmap above, we can note the following things. 
+Based on the correlation heatmap above, we can note the following things: 
 	- jobType is the most strongly correlated to salary, followed by degree, major, yearsExperience
 	- milesFromMetropolis has a negative correlation with salary 
 	
@@ -132,21 +132,18 @@ Our goal is to train and deploy a model boasting an MSE score of less than 360.
 ## Hypothesizing solutions
 Given the information we have about our data.
 
-**These are the models I propose to predict the salary are:**
+**These are the models I propose to predict the salary:**
 
-- **Linear Regression**: From the EDA, we have seen that both the numerical and most of the categorical variable have a liner correlation with the target variable 'salary'. Based on those factors a liner modle would be suitable for this dataset.
+- **Linear Regression**: From the EDA, we have seen that both the numerical and most of the categorical variable have a linear correlation with the target variable 'salary'. Based on those factors a linear model would be suitable for this dataset.
 - **Random Forest**: Random Forest would be a good model for this dataset because it would be able to handle the categorical data well. This model also reduces overfitting and helps to improve the accuracy. Random forest is also a flexible model for both classifiaction and regression problems.
-- **Gradient-boost**: Gradient boosting has lots of flexibility. It can optimize on different loss functions and provides several hyper parameter tuning options that make the function fit very flexible.
+- **Gradient-boost**: Gradient boosting has a lot of flexibility. It can optimize on different loss functions and provides several hyper parameter tuning options that make the function fit flexibly.
 
-**The step I am planning to take to improve the model accuracy and decrease the MSE are:**
+**The steps I am planning to take to improve the model accuracy and decrease the MSE are as follows:**
 
 	- Apply feature engineering like one-hot encoding for categorical variabes
 	- Normalize the numerical to scale the data
 	- Hypertune the parameters to enhance the accuracy
 	
-## Feature Engineering
-	- Encode the categorical variables using one-hot encode feature
-	- Normalizing the numerical features
 
 ## Model Training
 We performed a 5 fold cross-validation with negative MSE scoring on each of the selected models.
@@ -170,6 +167,6 @@ The plot below visualizes actual salaries versus predicted on the training datas
 - We can see that the most important feature is the jobType
 
 ## Deployment
-Finally we can deploy our model by making salary predictions on the test dataset. The predictions made have been saved in the file 'predictions.csv' which can be found in the repository. 
+Finally, we can deploy our model by making salary predictions on the test dataset. The outcome of predictions has been saved in the file 'predictions.csv' which can be found in the repository. 
 
 
