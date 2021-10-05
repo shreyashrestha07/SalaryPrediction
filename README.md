@@ -18,7 +18,7 @@ The data folder of this repository consists of three csv files
 - SalaryPrediction_Modelling: contains the code for model training, hyper parameter tuning, Principal Component Analysis(PCA), Model Evaluation and Model Deployment.
 
 ## Other repository content
-'modelpredicition.csv' contains the salaries predicted by the model from the test dataset.
+'predicition.csv' contains the salaries predicted by the model from the test dataset.
 
 ## Data Wrangling 
 1. Load all the train and test data files into pandas data frame.
